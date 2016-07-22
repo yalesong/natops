@@ -1,7 +1,6 @@
 # NATOPS Aircraft Handling Signals Database
 
-![alt text](https://github.com/yalesong/natops/blob/master/images/natops1.png "")
-![alt text](https://github.com/yalesong/natops/blob/master/images/natops2.png "")
+![alt text](https://github.com/yalesong/natops/blob/master/images/natops1.jpg "natops")![alt text](https://github.com/yalesong/natops/blob/master/images/natops2.jpg "natops")
 
 This repository contains the NATOPS Aircraft Handling Signals database, described in our FG2011 paper **"Tracking Body and Hands For Gesture Recognition: NATOPS Aircraft Handling Signals Database."**.
 
