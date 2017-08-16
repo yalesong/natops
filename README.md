@@ -33,7 +33,7 @@ Three additional files:
 2. **precomputed_features.zip** contains precomputed features (2D joint angles (x,y), 3D joint positions (x,y,z), SVM-output of hand pose classification (both the label and probabilities).
 3. **body_hand_pose_s20.zip** contains ground truth body and hand poses for one of the 20 subjects: subject \#20. 
     1. Body pose labels were obtained using the Vicon motion capture system, wearing markers on different parts of the body and tracking their 3D locations.
-    2. Hand pose labels were obtained by manual annotation. Label categories are 0: others, 1: thumb up, 2: thumb down, 3: open palm, 4: closed palm.
+    2. Hand pose labels were obtained by manual annotation. Label categories are 0: others, 1: open palm, 2: closed palm, 3: thumb up, 4: thumb down.
 
 The precomputed feature data comes in Matlab format, which can be downloaded at:
 http://mug.csail.mit.edu/natops/data/NATOPS24.mat
