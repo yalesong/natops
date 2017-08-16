@@ -9,6 +9,7 @@ if [ ! -d ${OUT_DIR} ]; then
   mkdir ${OUT_DIR}
 fi
 
+wget ${SVR_ADDR}/body_hand_pose_s20.zip -P ${OUT_DIR}
 wget ${SVR_ADDR}/precomputed_features.zip -P ${OUT_DIR}
 wget ${SVR_ADDR}/segmentation.txt -P ${OUT_DIR}
 
