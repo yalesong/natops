@@ -28,9 +28,12 @@ where XX (01~24) is the gesture index, YY (01~20) is the subject index.
 ```
 Each subject performed each gesture 20 times. So you get 400 samples per gesture.
  
-Two additional files:
-- segmentation.txt contains ground truth gesture segmentation labels 
-- precomputed_features.zip contains precomputed features (2D joint angles (x,y), 3D joint positions (x,y,z), SVM-output of hand pose classification (both the label and probabilities).
+Three additional files:
+1. **segmentation.txt** contains ground truth gesture segmentation labels 
+2. **precomputed_features.zip** contains precomputed features (2D joint angles (x,y), 3D joint positions (x,y,z), SVM-output of hand pose classification (both the label and probabilities).
+3. **body_hand_pose_s20.zip** contains ground truth body and hand poses for one of the 20 subjects: subject \#20. 
+    1. Body pose labels were obtained using the Vicon motion capture system, wearing markers on different parts of the body and tracking their 3D locations.
+    2. Hand pose labels were obtained by manual annotation. Label categories are 0: others, 1: thumb up, 2: thumb down, 3: open palm, 4: closed palm.
 
 The precomputed feature data comes in Matlab format, which can be downloaded at:
 http://mug.csail.mit.edu/natops/data/NATOPS24.mat
